@@ -1,0 +1,9 @@
+[submodule "src/pico/lib/src/pico/lib/RF24"]
+	path = src/pico/lib/src/pico/lib/RF24
+	url = https://github.com/nRF24/RF24.git
+[submodule "src/pico/lib/lib"]
+	path = src/pico/lib/lib
+	url = https://github.com/nRF24/RF24.git
+[submodule "src/pico/lib/RF24"]
+	path = src/pico/lib/RF24
+	url = https://github.com/nRF24/RF24.git
