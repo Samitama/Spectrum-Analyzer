@@ -6,7 +6,7 @@ import serial.tools.list_ports
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        uic.loadUi("spectrum_analyzer.ui", self)
+        uic.loadUi("/Users/sami/Desktop/python/pyqt/spectrum_analyzer.ui", self)
         self.setWindowTitle("Spectrum Analyzer")
         self.load_serial_comports()
         self.baudrate_selection()
